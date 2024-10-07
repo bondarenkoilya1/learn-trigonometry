@@ -1,10 +1,10 @@
-import { BrowserRouter as Router } from "react-router-dom";
 import { Layout } from "./layout";
+import { Providers } from "./components/Provider";
 
 export const App = () => {
   return (
-    <Router>
+    <Providers>
       <Layout />
-    </Router>
+    </Providers>
   );
 };
